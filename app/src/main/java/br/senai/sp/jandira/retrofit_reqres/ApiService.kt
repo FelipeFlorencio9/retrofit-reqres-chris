@@ -8,7 +8,7 @@ import retrofit2.http.Path
 interface ApiService {
 
     @GET("/api/users/{id}")
-    suspend fun getUserByID(@Path("id") id: String): Response<String>
+    suspend fun getUserByID(@Path("id") id: String): Response<BaseResponse<UserResponse>>
 
 
 }
