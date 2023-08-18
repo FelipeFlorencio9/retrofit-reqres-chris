@@ -8,5 +8,4 @@ data class UserResponse(
     @SerializedName("first_name") var first_name: String? = "",
     @SerializedName("last_name") var last_name: String? = "",
     @SerializedName("avatar") var avatar: String? = ""
-
 )
